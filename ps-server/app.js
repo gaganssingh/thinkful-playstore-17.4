@@ -56,4 +56,4 @@ app.get("/apps", (req, res) => {
 	res.status(200).json(results);
 });
 
-app.listen(8000, () => console.log("Server started at port 8000"));
+module.exports = app;
